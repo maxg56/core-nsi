@@ -1,0 +1,13 @@
+strict digraph {
+	Hello
+	Hello -> World [label=1]
+	World
+	World -> Hello [label=1]
+	Bonjour
+	Bonjour -> Le [label=1]
+	Le
+	Le -> Bonjour [label=1]
+	Le -> Monde [label=1]
+	Monde
+	Monde -> Le [label=1]
+}
